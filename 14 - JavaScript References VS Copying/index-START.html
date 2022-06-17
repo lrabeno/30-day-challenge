@@ -36,13 +36,15 @@
       // This line above will modify both the team and players array
       // Arrays are passed by reference!!!!
 
-      console.log(players, team);
+      // console.log(players, team);
 
       // and we want to make a copy of it.
+
+      // use the spread operator to make copies!!!!
       const copy = [...players];
       copy[3] = 'Grogu';
 
-      console.log(copy, players);
+      // console.log(copy, players);
       // You might think we can just do something like this:
 
       // however what happens when we update that array?
